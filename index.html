@@ -1,66 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Izabella Santos</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- Google fonts -->
+    <link rel="icon" type="image/png" href="img/icon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- Dev icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-    <!-- CSS do projeto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> Izabella Santos | Desenvolvedora</title>
 </head>
+
 <body>
-    <main id="container">
-        <aside id="bio-container">
-            <h2>Izabella Santos</h2>
-            <img id = "bio-img" src="img/izabella.PNG" alt="Izabella Santos">
-            <p>Olá, meu nome é Izabella Santos e sou desenvolvedora web. </p>
-            <p id="welcome-text">Seja bem-vindo!</p>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: blueviolet; justify-content: space-between;">
+        <img class="imagem_navbar" src="img/icon_navbar.png" alt="icon_navbar">
+        <p class="slogan">Make a change today!</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">   
+                <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i>
+            </span>
+        </button>
 
-            <ul id="social-container">
-                <li><a href="https://www.linkedin.com/in/izabella-j%C3%BAlia-dos-santos-3474721a3/" target="_blank"><ion-icon name ="logo-linkedin"></ion-icon></a></li>
-                <li><a href="https://www.instagram.com/bellantos/" target="_blank"><ion-icon name ="logo-instagram"></ion-icon></a></li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link menu" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#contato">Contato</a>
+                </li>
             </ul>
+        </div>
+    </nav>
 
-            <div id="email-container">
-                <ion-icon name = "mail-outline"></ion-icon><a href="mailto:izabellajuliasantos@gmail.com">izabellajuliasantos@gmail.com</a>
-            </div>
-        </aside>
-        <section id="about-container">
-            <h1 id = "name">Izabella Santos</h1>
-            <p id="title"><span class="highlight">Estagiária de desenvolvimento</span></p>
-            <p class="description">Estou começando minha carreira na área de tecnologia, trabalhando atualmente com desenvolvimento web em <span class="highlight">PHP, SQL, HTML e JavaScript</span>.</p>
-            <a href="https://github.com/IzabellaSantos" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
-            <h2 id="section-skills-title">Minhas skills</h2>
-            <p class="description">Algumas tecnologias que possuo mais experiência:</p>
+    <div class="inicio" id='inicio'>
+        <p class="inicio_boasvindas">Bem vindo!</p>
+        <img class="profile_picture" src="img/icon_izabela.png" alt="profile_picture">
+        <p class="inicio_descricao">Meu nome é Izabella Santos e sou uma desenvolvedora curiosa, atualmente envolvida com criação de sites fullstack.</p>
+    </div>
 
-            <div id="skills-container">
-                <div class="skills-box">
-                    <p class="skills-title">Front-end</p>
-                    <i class="devicon-html5-plain colored"></i>
-                    <i class="devicon-javascript-plain colored"></i>
-                </div>
+    <hr>
 
-                <div class="skills-box">
-                    <p class="skills-title">Backend-end</p>
-                    <i class="devicon-php-plain colored"></i>
-                </div>
+    
+    
 
-                <div class="skills-box">
-                    <p class="skills-title">Database</p>
-                    <i class="devicon-mysql-plain colored"></i>
-                </div>
-            </div>
-
-
-        </section>
-    </main>
-    <!-- Icones -->
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
