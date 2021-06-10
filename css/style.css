@@ -195,6 +195,7 @@ i.fa.fa-linkedin-square{
 
     .inicio_boasvindas{
         display: -webkit-flex; 
+        justify-content: space-around;
         -webkit-justify-content: space-around;
         left: 0;
     }
