@@ -6,11 +6,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- External CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="img/icon.png"/>
+
+    <!-- Main icon -->
+    <link rel="icon" type="image/png" href="img/icon.png" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet">
+
+    <!-- Dev Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
@@ -21,17 +31,20 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: blueviolet; justify-content: space-between;">
+
+    <!-- Menu -->
+    <nav id='inicio' class="navbar navbar-expand-lg navbar-light navbar-fixed-top"
+        style="background-color: blueviolet; justify-content: space-between;">
         <img class="imagem_navbar" src="img/icon_navbar.png" alt="icon_navbar">
         <p class="slogan">Make a change today!</p>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">   
+            <span class="navbar-toggler-icon">
                 <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i>
             </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link menu" href="#inicio">Início</a>
@@ -49,16 +62,98 @@
         </div>
     </nav>
 
-    <div class="inicio" id='inicio'>
-        <p class="inicio_boasvindas">Bem vindo!</p>
-        <img class="profile_picture" src="img/icon_izabela.png" alt="profile_picture">
-        <p class="inicio_descricao">Meu nome é Izabella Santos e sou uma desenvolvedora curiosa, atualmente envolvida com criação de sites fullstack.</p>
+    <!-- Inicio -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <span class="inicio_boasvindas">Bem vindo!</span>
+            </div>
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 align-self-center">
+                <span class="inicio_descricao">Meu nome é Izabella Santos e sou uma desenvolvedora curiosa, atualmente
+                    envolvida
+                    com criação de sites fullstack.</span>
+            </div>
+            <div class="col-md-6">
+                <img class="profile_picture" src="img/icon_izabela.png" alt="profile_picture">
+            </div>
+
+        </div>
     </div>
 
-    <hr>
+    <hr id="habilidades">
 
-    
-    
+
+    <!-- Habilidades -->
+    <h1 class="habilidades">Habilidades</h1>
+    <div class="skills-container" id='habilidades'>
+        <div class="skills-box">
+            <p class="skills-title">Database</p>
+            <i class="devicon-mysql-plain color_skill"></i>
+        </div>
+
+        <div class="skills-box">
+            <p class="skills-title">Back-end</p>
+            <i class="devicon-php-plain color_skill"></i>
+            <i class="devicon-c-plain color_skill"></i>
+        </div>
+
+        <div class="skills-box">
+            <p class="skills-title">Tools</p>
+            <i class="devicon-visualstudio-plain color_skill"></i>
+            <i class="devicon-github-original color_skill"></i>
+        </div>
+
+        <div class="skills-box">
+            <p class="skills-title">Front-end</p>
+            <i class="devicon-html5-plain color_skill"></i>
+            <i class="devicon-css3-plain color_skill"></i>
+            <i class="devicon-javascript-plain color_skill"></i>
+            <i class="devicon-bootstrap-plain color_skill"></i>
+        </div>
+    </div>
+
+    <hr id="projetos">
+
+
+    <!-- Projetos -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <h1 class="projetos">Projetos</h1>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 500px;">
+            </div>
+            <div class="carousel-item" style="height: 500px;">
+            </div>
+            <div class="carousel-item" style="height: 500px;">
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true" style="font-size: 28px; color: blueviolet;"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true" style="font-size: 28px; color: blueviolet;"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Contato -->
+    <div id="contato" class="contato">
+        <a class='email' href="mailto:izabellajuliasantos@gmail.com">izabellajuliasantos@gmail.com</a>
+        <a class='link_insta' href="https://www.instagram.com/bellantos/" target=”_blank”><i
+                class="fa fa-instagram"></i></a>
+        <a class='link_linkedin' href="https://www.linkedin.com/in/izabella-j%C3%BAlia-dos-santos-3474721a3/"
+            target=”_blank”><i class="fa fa-linkedin-square"></i></a>
+        <a class='link_github' href="https://github.com/IzabellaSantos" target=”_blank”><i class="fa fa-github"></i></a>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

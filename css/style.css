@@ -2,50 +2,19 @@ a, p{
     font-family: 'Philosopher', sans-serif;
 }
 
+h1{
+    font-family: 'Milonga', cursive;
+}
+
 hr{
     border-top-color: blueviolet !important;
     width: 5%;
 }
 
+/* ---------- MENU ---------- */
+
 .imagem_navbar{
     width: 60px;
-}
-
-.slogan{
-    color: white;
-    position: absolute;
-    left: 8%;
-    top: 32%;
-}
-
-.inicio{
-    margin-top: 30px;
-    height: 400px;
-}
-
-.inicio_boasvindas {
-    color: blueviolet;
-    display: inline-block;
-    font-size: 2rem;
-    position: absolute;
-    left: 34%;
-    top: 220px;
-}
-
-.inicio_descricao{
-    display: inline-block;
-    width: 20%;
-    position: relative;
-    text-align: center;
-    left: 15%;
-    top: 150px;
-}
-
-.profile_picture{
-    width: 200px;
-    position: relative;
-    left: 55%;
-    top: 100px;
 }
 
 .menu{
@@ -56,32 +25,215 @@ hr{
     color: #D2B4DE !important;
 }
 
-.box-habilidades{
-    border: solid 0.2px gray;
-    border-radius: 5%;
-    box-shadow:  5px 10px 8px #888888;
-    box-sizing: border-box;
-    display: inline-block;
-    margin-bottom: 70px;
-    margin-top: 50px;
-    padding: 60px;
-    position: relative;
-    width: 70%;
-    left: 20%;
-}
-
-.devicon-html5-plain-wordmark{
-    color: #866ec7;
-    font-size: 70px;
-    position: relative;
-}
-
 .navbar-light .navbar-toggler {
     border: none;
 }
 
+.slogan{
+    color: white;
+    font-family: 'Milonga', cursive;
+    position: absolute;
+    left: 8%;
+    top: 32%;
+}
 
-@media only screen and (max-width: 600px) {
+/* ---------- INICIO ---------- */
+
+.inicio{
+    margin-top: 30px;
+    padding: 80px;
+}
+
+ .inicio_boasvindas {
+    color: blueviolet;
+    font-size: 2rem;
+    font-family: 'Milonga', cursive;
+    position: relative;
+    left: 50%;
+}
+
+.inicio_descricao{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+
+.profile_picture{
+    width: 200px;
+    position: relative;
+    left: 20%;
+} 
+
+.row{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* ---------- HABILIDADES ---------- */
+
+.color_skill{
+    color: blueviolet;
+}
+
+.devicon-php-plain.color_skill {
+    font-size: 50px;
+}
+
+.habilidades{
+    background-color: #bf9fee;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 40px;
+    color: blueviolet;
+}
+
+#section-skills-title{
+    border-top: 1px solid blueviolet;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bf9fee;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.skills-box{
+    flex: 1 1 33%;
+    max-width: 25%;
+}
+
+.skills-box i{
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.skills-title{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 1px solid blueviolet;
+}
+
+
+/* ---------- PROJETOS  ---------- */
+
+.carousel-indicators li {
+    background-color: blueviolet !important; 
+}
+
+.projetos{
+    margin-top: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+/* ---------- CONTATO ---------- */
+
+.contato{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #bf9fee;
+    padding: 20px;
+}
+
+.email{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+}
+
+.email:hover{
+    text-decoration: none;
+    color: blueviolet;
+    margin-bottom: 0;
+}
+
+i.fa.fa-github{
+    font-size: 30px;
+    color: blueviolet;
+    margin-right: 10px;
+}
+
+i.fa.fa-instagram{
+    font-size: 30px;
+    border-left: 1px solid blueviolet;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: blueviolet;
+    margin-right: 10px;
+}
+
+i.fa.fa-linkedin-square{
+    color: blueviolet;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.link_insta, .link_linkedin, .link_github{
+    line-height:0px;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+        display: flex;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .inicio_boasvindas{
+        display: -webkit-flex; 
+        -webkit-justify-content: space-around;
+        left: 0;
+    }
+
+    .inicio_descricao{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .profile_picture {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+        left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .skills-container{
+        padding-bottom: 30px;
+    }
+
+    .skills-box{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .skills-box i{
+        font-size: 60px;
+    }
     .inicio_boasvindas {
         text-align: center;
         display: block;
@@ -91,23 +243,38 @@ hr{
     }
 
     .inicio_descricao {
-        position: relative;
-        text-align: center;
-        top: 0%;
-        left: 0%;
-        width: 70%;
-        left: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
         margin-top: 30px;
+        left: 0;
+    }
+
+    .inicio{
+        padding-bottom: 10%;
+        margin-top: 0;
     }
 
     .profile_picture {
-        width: 200px;
-        position: relative;
-        left: 25%;
-        top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+        left: 0;
     }
+
     hr{
         width: 15%;
+    }
+
+    .email {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    i.fa.fa-instagram {
+        border-left: none; 
     }
     
 }
@@ -120,68 +287,15 @@ hr{
     }
 }
 
-/* ipad */
-@media only screen and (max-width: 992px) and (min-width: 601px){
-  .inicio_boasvindas {
-        color: blueviolet;
-        display: inline-block;
-        font-size: 2rem;
-        position: relative;
-        left: 25%;
-        top: 40px;
-    }
-    .profile_picture {
-        width: 200px;
-        position: relative;
-        left: 35%;
-        top: 120px;
-    }
-
-    .inicio_descricao {
-        display: block;
-        width: 30%;
-        left: 20%;
-        top: 0px;
-    }
-}
-
-/* ipad pro */
-@media only screen and (max-width: 1024px) and (min-width: 992px){
-    .profile_picture {
-        top: 140px;
-    }
-
-    .inicio_descricao {
-        left: 11%;
-        top: 190px;
-    }
-}
-
 /* surface fold */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 360px) {
     .slogan{
         display: none;
     }
 
-    .profile_picture{
-        left: 15%;
-    }
-
     .inicio{
-        height: 430px;
+        padding: 20px;
     }
+
 }
 
-/* iphone 5 */
-@media only screen and (max-width: 320px) and (min-width: 301px){
-    .profile_picture {
-        left: 19%;
-    }
-}
-
-/* surface duo */
-@media only screen and (max-width: 540px) and (min-width: 539px){
-    .profile_picture {
-        left: 32%;
-    }
-}
