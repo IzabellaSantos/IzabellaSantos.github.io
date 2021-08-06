@@ -11,6 +11,10 @@ hr{
     width: 5%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------- MENU ---------- */
 
 .imagem_navbar{
