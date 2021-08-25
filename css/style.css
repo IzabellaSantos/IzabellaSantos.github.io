@@ -140,6 +140,18 @@ html {
     color: blueviolet;
 }
 
+.carousel-item{
+    height: 450px;
+}
+
+.project-title{
+    color: blueviolet;
+    font-size: 24px;
+}
+
+.img-fluid{
+    height: 200px !important;
+}
 /* ---------- CONTATO ---------- */
 
 .contato{
@@ -192,6 +204,13 @@ i.fa.fa-linkedin-square{
         display: flex;
     }
 
+}
+
+
+@media (max-width: 767px){
+    .carousel-item{
+        height: 650px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -301,5 +320,8 @@ i.fa.fa-linkedin-square{
         padding: 20px;
     }
 
+    .carousel-item{
+        height: 750px;
+    }
 }
 
