@@ -13,7 +13,11 @@
 
 </head>
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 391c2e8e3c0cc47fa32ed267663184c70bb34e98
 <body>
     <!-- Menu -->
     <nav class="navbar fixed-top navbar-expand-lg justify-content-between">
