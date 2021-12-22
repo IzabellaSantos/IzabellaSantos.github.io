@@ -20,7 +20,6 @@
   --button-hover: #21c4ab;
 }
 
-
 a, p, span, h1, h5{
     font-family: 'Philosopher', sans-serif !important;
 }
@@ -300,6 +299,5 @@ i.fa.fa-linkedin-square, i.fa.fa-github, i.fa.fa-instagram{
     .skills-box i{
         font-size: 40px;
     }
-
 }
 
