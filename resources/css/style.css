@@ -309,3 +309,25 @@ i.fa.fa-linkedin-square, i.fa.fa-github, i.fa.fa-instagram{
     }
 }
 
+.float{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:30px;
+	right:30px;
+	background-color: #C343F6;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top: 17px;
+}
+
+.float:hover{
+    color: var(--simple-color);
+    cursor: pointer;
+}
+
