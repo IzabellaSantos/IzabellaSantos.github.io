@@ -5,6 +5,7 @@
     4 - SOFT SKILLS VARIABLES
     5 - PROJECTS VARIABLES
     6 - FOOTER VARIABLES
+    7 - RESPONSIVE
    ================*/
 
 
@@ -31,13 +32,13 @@ hr{
 
 html {
   scroll-behavior: smooth;
-    
 }
 
 iframe{
     width: 100%;
     height: 300px;
 }
+
 
 /* NAVBAR VARIABLES*/
 i.fa.fa-bars{
@@ -201,8 +202,8 @@ i.fa.fa-angle-left:hover, i.fa.fa-angle-right:hover{
 }
 
 .imageProject{
-    width: 50%;
-    height: 250px;
+    width: auto;
+    height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -238,7 +239,13 @@ i.fa.fa-linkedin-square, i.fa.fa-github, i.fa.fa-instagram{
     text-decoration: none;
 }
 
+/* RESPONSIVE */
+
 @media (max-width: 991px){
+
+    .carousel-control-next, .carousel-control-prev{
+        width: auto !important;
+    }
     .container-projects{
         height: 500px;
     }
